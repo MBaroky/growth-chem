@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Battery Home</title>
+    <title>جروس كيم للكيماويات المتطورة</title>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="">
     <meta property="og:image" content="assets/img/icon.svg">
@@ -45,7 +45,7 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
 
 
     <header id="main-header">
-        <div class="container-fluid" style="background-color: #fff;">
+        <div class="container" style="background-color: #fff;">
             <div class="row align-items-stretch justify-content-md-start rtl">
                 <div class="col-3 d-md-none"></div>
                 <div class="col-6 col-md-4 offset-md-0 text-center align-self-center"><a class="d-inline-block" href="index.php"><img class="img-fluid" src="assets/img/IMG-20200121-WA0001-e6545880.jpg" width="190px" style="margin-top: 3px;margin-bottom: 5px;"></a></div>
