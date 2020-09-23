@@ -24,15 +24,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/Bootstrap-4---Photo-Gallery.css">
-    <link rel="stylesheet" href="assets/css/Bootstrap-Spinner-Best-Preloader.css">
     <link rel="stylesheet" href="assets/css/contact-html.css">
+    <link rel="stylesheet" href="assets/css/flex-slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
     <link rel="stylesheet" href="assets/css/language-mobile.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
@@ -63,9 +60,9 @@ function isMobile() {
         <div class="col-3 col-md-7 d-flex flex-column justify-content-between align-items-stretch align-self-center align-self-md-stretch">
             <div class="row d-none d-md-flex">
                 <div class="col text-left">
-                    <p class="text-center border rounded-0 d-inline-block lang p-1" style="font-family: Raleway, sans-serif;margin-top: 5px;"><a href="en/<?php echo basename($_SERVER['PHP_SELF']);?>"><strong>EN </strong></a>/ <a href="#">AR</a></p>
+                    <p class="text-center border rounded-0 d-inline-block lang p-1" style="font-family: Raleway, sans-serif;margin-top: 9px;"><a href="en/<?php echo basename($_SERVER['PHP_SELF']);?>"><strong>EN </strong></a>/ <a href="#">AR</a></p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 p-0">
                     <div class="btn-group d-inline-block social-icons" role="group" style="width: auto;margin-top: 5px;"><a class="btn border rounded-circle d-flex float-left align-items-center justify-content-md-center b-0 s-0" role="button" style="margin-right: 10px;" href="https://www.facebook.com/pages/category/Chemical-Company/%D8%AC%D8%B1%D9%88%D8%B3-%D9%83%D9%8A%D9%85-%D9%84%D9%84%D9%83%D9%8A%D9%85%D8%A7%D9%88%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-Growth-chem-for-Advanced-chemicals-2273195822921032/"><i class="fa fa-facebook-f" style="background-color: #3A5998;"></i></a>
                         <a
                             class="btn border rounded-circle d-flex float-left align-items-center justify-content-md-center b-0 s-0" role="button" href="<?= (isMobile()) ? 'https://wa.me/+2%2001020952952':'https://web.whatsapp.com/send?phone=+2%2001020952952'; ?>"><i class="fa fa-whatsapp" style="background-color: #25D366;"></i></a>

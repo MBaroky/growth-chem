@@ -1,0 +1,192 @@
+html[lang="ar"] p, html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4, html[lang="ar"] a:not([href*='tel']), html[lang="ar"] button {
+  direction: rtl;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.main-button, #mainNav .navbar-nav .nav-item a.nav-link.main-button {
+  color: #000;
+}
+
+.flexslider:hover .custom-navigation a {
+}
+
+.flexslider:hover .custom-navigation a.flex-prev {
+}
+
+.flexslider .custom-navigation a {
+  transition: all ease-in-out 0.3s;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  color: var(--base-color) !important;
+  background-color: var(--main-color);
+  opacity: 0.8;
+}
+
+.flexslider .custom-navigation a span {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  background: var(--main-color);
+  transition: all .35s ease-in-out .2s;
+  z-index: 0;
+}
+
+.flexslider .custom-navigation a.flex-next span {
+  right: 0;
+}
+
+.flexslider .custom-navigation a.flex-prev span {
+  left: 0;
+}
+
+.flexslider .custom-navigation a:hover span {
+  width: 100%;
+}
+
+.flexslider .custom-navigation a i {
+  z-index: 1;
+  position: relative;
+}
+
+.flexslider .slides li .color-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  opacity: 0;
+  z-index: -1;
+}
+
+.flexslider .slides li .text-wrapper .slide-title {
+  padding: 30px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.flexslider .slides li .text-wrapper {
+  font-family: Cairo, sans-serif;
+}
+
+.flexslider .slides li .text-wrapper > .slide-title, .flexslider .slides li .text-wrapper > .slide-text {
+  background-color: rgba(0,0,0,0.4);
+  font-family: Cairo, sans-serif;
+}
+
+.no-border {
+  border-width: 0 !important;
+}
+
+div.flexslider {
+  margin: 0;
+  border: solid #000;
+  border-width: 7px 0;
+}
+
+.flexslider .custom-navigation {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  left: 5%;
+  transform: translateY(-50%);
+  width: 90%;
+}
+
+.flexslider .slides li {
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.flexslider .slides li .slide-inner {
+  max-width: 70%;
+  max-height: 60%;
+  position: static;
+  display: none;
+}
+
+#start-icon {
+  animation: Down .7s linear .2s infinite alternate !important;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  margin-top: -80px !important;
+  z-index: 10;
+}
+
+#start-icon svg {
+  fill: #fff;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.flexslider .slides li .text-wrapper > .slide-text {
+  color: rgb(255,255,255);
+  padding: 20px;
+}
+
+.flexslider .slides li .text-wrapper > .slide-button {
+  padding: 15px 25px;
+}
+
+section {
+  padding: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--main-color);
+  text-align: center;
+  font-weight: 400;
+  font-family: Changa, sans-serif;
+}
+
+p {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Cairo, sans-serif;
+  line-height: 1.2;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+dl, ol, ul {
+  color: #fff;
+  font-family: Changa, sans-serif;
+}
+
+.custom-navigation img {
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.4s;
+}
+
+.custom-navigation a.flex-next img {
+  left: 0;
+  margin-left: -40px;
+}
+
+.custom-navigation a.flex-prev img {
+  right: 0;
+  transform: scaleX(-1);
+  margin-right: -40px;
+}
+
+.custom-navigation a:hover img {
+  margin-left: 0;
+  margin-right: 0;
+  opacity: 1;
+}
+

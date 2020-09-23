@@ -79,6 +79,9 @@ function fixedHeight(elm){
 $(window).on('load resize', function(){
     $('body').css('padding-top', fixedHeight('header#main-header'));
 });
+$(document).ready(function(){
+     $('body').css('padding-top', fixedHeight('header#main-header'));
+});
 
 // scroll to target
 $('[href*="#"]:not([href="#"])').on('click', function(e){
