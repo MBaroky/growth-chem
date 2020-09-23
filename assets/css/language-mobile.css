@@ -1,0 +1,23 @@
+html[lang="ar"] p, html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4, html[lang="ar"] a:not([href*='tel']), html[lang="ar"] button {
+  direction: rtl;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.ltr {
+  direction: ltr !important;
+}
+
+.lang {
+  width: 80px;
+  max-width: 100%;
+}
+
+#main-header .dropdown-menu {
+  min-width: 20px;
+  padding: 0;
+  border-radius: 0;
+}
+
