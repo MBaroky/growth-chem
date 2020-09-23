@@ -1,0 +1,22 @@
+.spinner-parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,1);
+  z-index: 9999;
+}
+
+.spinner-parent img {
+  font-size: 4rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#mobile-cover {
+  background-image: url("cover-1.jpeg");
+}
+

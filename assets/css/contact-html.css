@@ -1,0 +1,34 @@
+.form-control {
+  border-radius: 0px;
+  background-color: #f3f3f3;
+  font-family: 'Raleway';
+}
+
+button.btn.btn-success.btn-send {
+  background-color: #6e9a76;
+  border-color: #6e9a76;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-radius: 0px;
+  background-color: #f3f3f3;
+  font-family: 'Raleway';
+}
+
+button.btn.btn-success.btn-send {
+  background-color: #6e9a76;
+  border-color: #6e9a76;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+form#contact-form {
+  margin-bottom: 20px;
+}
+
+.rtl {
+  direction: rtl;
+}
+
