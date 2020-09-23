@@ -36,7 +36,6 @@
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
-<script type="text/javascript" src="http://livejs.com/live.js"></script>
 </head>
 
 <body style="background-size: 0;background-color: #fff;">
@@ -45,29 +44,33 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 
 
-    <header id="main-header" class="test2">
+    <header id="main-header">
         <div class="container-fluid" style="background-color: #fff;">
             <div class="row align-items-stretch justify-content-md-start rtl">
                 <div class="col-3 d-md-none"></div>
                 <div class="col-6 col-md-4 offset-md-0 text-center align-self-center"><a class="d-inline-block" href="index.php"><img class="img-fluid" src="assets/img/IMG-20200121-WA0001-e6545880.jpg" width="190px" style="margin-top: 3px;margin-bottom: 5px;"></a></div>
                 <div class="col-3 col-md-8 d-flex flex-column justify-content-between align-items-stretch align-self-center align-self-md-stretch">
                     <div class="row d-none d-md-flex">
-                        <div class="col"></div>
-                        <div class="col">
-                            <div class="btn-group d-flex" role="group"><a class="btn border rounded-0 d-flex align-items-center main-button no-border" role="button" style="margin-right: 10px;" href="https://www.facebook.com/wafa1234wa12"><i class="fa fa-facebook-f"></i></a><a class="btn border rounded-0 d-flex align-items-center main-button no-border"
-                                    role="button" href="mailto:m_wafa77@yahoo.com"><i class="fa fa-envelope-o"></i></a></div>
+                        <div class="col text-left">
+                            <p class="text-center border rounded-0 d-inline-block lang p-1" style="font-family: Raleway, sans-serif;margin-top: 5px;"><a href="en/<?php echo basename($_SERVER['PHP_SELF']);?>"><strong>EN </strong></a>/ <a href="#">AR</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group d-inline-block social-icons" role="group" style="width: auto;margin-top: 5px;"><a class="btn border rounded-circle d-flex float-left align-items-center justify-content-md-center b-0 s-0" role="button" style="margin-right: 10px;" href="https://www.facebook.com/pages/category/Chemical-Company/%D8%AC%D8%B1%D9%88%D8%B3-%D9%83%D9%8A%D9%85-%D9%84%D9%84%D9%83%D9%8A%D9%85%D8%A7%D9%88%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-Growth-chem-for-Advanced-chemicals-2273195822921032/"><i class="fa fa-facebook-f" style="background-color: #3A5998;"></i></a>
+                                <a
+                                    class="btn border rounded-circle d-flex float-left align-items-center justify-content-md-center b-0 s-0" role="button" href="https://web.whatsapp.com/send?phone=+2%2001020952952"><i class="fa fa-whatsapp" style="background-color: #25D366;"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <nav class="navbar navbar-light navbar-expand-md no-padding" id="mainNav" style="background-color: transparent;font-family: Changa, sans-serif;">
-                                <div class="container">
+                            <nav class="navbar navbar-light navbar-expand-md" id="mainNav" style="background-color: transparent;font-family: Changa, sans-serif;">
+                                <div class="container-fluid">
                                     <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-top: 0;">
-                                        <ul class="nav navbar-nav text-right text-md-center d-flex float-md-none flex-row-reverse justify-content-center ml-auto flex-md-row-reverse mx-md-auto">
-                                            <li class="nav-item text-right pl-0" role="presentation"><a class="nav-link main-button <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php"><strong>الرئيسية</strong></a></li>
-                                            <li class="nav-item text-right pl-0" role="presentation"><a class="nav-link main-button <?= ($activePage == 'tires') ? 'active':''; ?>" href="tires.php"><strong>الاطارات</strong></a></li>
-                                            <li class="nav-item text-right pl-0" role="presentation"><a class="nav-link main-button <?= ($activePage == 'batteries') ? 'active':''; ?>" href="batteries.php"><strong>البطاريات</strong></a></li>
-                                            <li class="nav-item text-right pl-0" role="presentation"><a class="nav-link main-button <?= ($activePage == 'contact') ? 'active':''; ?>" href="contact.php"><strong>اتصل بنا</strong></a></li>
+                                        <ul class="nav navbar-nav d-flex flex-row align-items-stretch mx-auto p-0">
+                                            <li class="nav-item text-center pl-0" role="presentation"><a class="nav-link active main-button <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php"><strong>الرئيسية</strong><span class="style">Text</span></a></li>
+                                            <li class="nav-item text-center pl-0" role="presentation"><a class="nav-link main-button <?= ($activePage == 'batteries') ? 'active':''; ?>" href="batteries.php"><strong>البطاريات</strong><span class="style">Text</span></a></li>
+                                            <li class="nav-item text-center pl-0"
+                                                role="presentation"><a class="nav-link main-button <?= ($activePage == 'contact') ? 'active':''; ?>" href="contact.php"><strong>اتصل بنا</strong><span class="style">Text</span></a></li>
                                         </ul>
                                     </div><button data-target="#navbarResponsive" data-toggle="collapse" class="navbar-toggler b-0"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
                             </nav>

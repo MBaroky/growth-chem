@@ -1,8 +1,117 @@
 #mainNav .navbar-nav .nav-item .nav-link {
+  position: relative;
   color: rgba(28,106,66,1) !important;
+  font-family: Cairo, sans-serif;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .b-0 {
-  border-width: 0;
+  border-width: 0 !important;
+}
+
+#mainNav .navbar-nav .nav-item {
+  flex: 1;
+  min-width: 100px;
+  margin-right: 15px;
+}
+
+.nav.navbar-nav {
+  width: 100%;
+}
+
+.s-0 {
+  box-shadow: 0 0 0 transparent !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(242,146,0,1) !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:before {
+}
+
+.social-icons a {
+  width: 40px;
+  padding: 4px;
+}
+
+.lang a {
+  color: #333;
+}
+
+#mainNav:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -2px;
+  border-top: solid 1px #027f1e;
+  width: 100%;
+  height: 100%;
+}
+
+#mainNav {
+  border-top: solid 1px #bcdb5d;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:after {
+  z-index: -1;
+  pointer-events: none;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  display: block;
+  background: inherit;
+  /* background-color: rgba(0,0,0,.5);
+  */        background-size: cover;
+  position: absolute;
+  box-shadow: 0px 5px 5px 3px rgba(0,0,0,.5);
+  z-index: 0;
+  transition: height .3s ease-in-out .1s;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover:after, #mainNav .navbar-nav .nav-item .nav-link.active:after {
+  height: 100%;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link strong {
+  z-index: 2;
+  position: relative;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link .style {
+  content: "";
+  pointer-events: none;
+  left: -30%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  top: -52%;
+  width: 147px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  mix-blend-mode: screen !important;
+  opacity: 0;
+  z-index: 3;
+  transition: left .4s ease-in-out , opacity .35s ease-in-out;
+  background-image: url("../../assets/img/flare-2880w.png");
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover .style, #mainNav .navbar-nav .nav-item .nav-link.active .style {
+  opacity: 1;
+  left: 0;
+  transition-delay: 0.3s, 0.25s;
+}
+
+.lang a[href="#"] {
+  pointer-events: none;
 }
 
