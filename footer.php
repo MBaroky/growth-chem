@@ -36,7 +36,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col text-center d-inline-block align-self-start">
-                    <div class="m-0" data-aos="fade-up"><div class="logo-icon white"><svg version="1.1" id="1761517866" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251px" height="250px" viewbox="0 0 251 250" enable-background="new 0 0 251 250" xml:space="preserve" class="svg u_1761517866" data-icon-custom="true" data-icon-name="icon_animated.svg">
+                    <div class="m-0" data-aos="fade-up" data-aos-once="true"><div class="logo-icon white"><svg version="1.1" id="1761517866" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251px" height="250px" viewbox="0 0 251 250" enable-background="new 0 0 251 250" xml:space="preserve" class="svg u_1761517866" data-icon-custom="true" data-icon-name="icon_animated.svg">
   <g id="1485144423">
    <defs id="1875605874">
     <path id="SVGID_1_" d="M149.078,41.597c2.98,4.269,5.443,7.771,7.877,11.293c1.745,2.525,2.641,5.184,2.257,8.401
