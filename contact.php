@@ -5,7 +5,7 @@
         display:none !important;
     }
 </style>
-    <section id="contact-form-wrapper">
+    <section id="contact-form-wrapper" style="background-color: #E8E8E8;border-bottom: solid 2px rgba(163,163,163,1);">
         <div class="container">
             <div class="intro"></div>
             <div class="row rtl">
@@ -16,19 +16,19 @@
                     <form class="text-right float-none mx-auto rtl" id="contact-form" method="post" style="max-width: 712px;"><input class="form-control" type="hidden" name="lang" value="arabic">
                         <div class="messages"></div>
                         <div class="controls">
-                            <div class="form-row">
-                                <div class="col-md-4">
-                                    <div class="form-group"><label class="d-none" for="formRequesterFirstName">الاسم</label><input class="form-control" type="text" id="form_name" name="formRequesterFirstName" required="" placeholder="الاسم">
+                            <div class="form-row row-cols-1">
+                                <div class="col">
+                                    <div class="form-group d-flex"><label for="formRequesterFirstName">الاسم</label><input class="form-control" type="text" id="form_name" name="formRequesterFirstName" required="">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="form-group"><label class="d-none" for="formRequesterEmail">البريد الالكتروني</label><input class="form-control" type="email" id="form_email" name="formRequesterEmail" required="" placeholder="البريد الالكتروني">
+                                <div class="col">
+                                    <div class="form-group d-flex"><label for="formRequesterEmail">الايميل</label><input class="form-control" type="email" id="form_email" name="formRequesterEmail" required="">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="form-group"><label class="d-none" for="formRequesterMobile">التليفون </label><input class="form-control" type="tel" id="form_phone" name="formRequesterMobile" placeholder="التليفون" required="">
+                                <div class="col">
+                                    <div class="form-group d-flex"><label for="formRequesterMobile">التليفون </label><input class="form-control" type="tel" id="form_phone" name="formRequesterMobile" required="">
                                         <div class="text-center float-none help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -36,11 +36,11 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-12">
-                                <div class="form-group"><label class="d-none" for="formRequesterMessage">الرسالة</label><textarea class="form-control" id="form_message" name="formRequesterMessage" placeholder="الرسالة" style="color: #333;"></textarea>
+                                <div class="form-group d-flex"><label for="formRequesterMessage">الرسالة</label><textarea class="form-control" id="form_message" name="formRequesterMessage" style="color: #333;"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-md-12 text-center"><button class="btn btn-success btn-lg border rounded-0 float-none" value="لمعرفة المزيد" type="submit" required="" name="submit"><strong>لمعرفة المزيد</strong><br></button></div>
+                            <div class="col-md-12 text-left"><button class="btn btn-primary btn-lg border rounded float-none" value="تواصل معنا" type="submit" required="" name="submit" style="background-color: rgba(224,152,41,1);border-radius: 30px !important;padding: 10px 40px;"><strong>تواصل معنا</strong><br></button></div>
                         </div>
                     </form>
 <script>

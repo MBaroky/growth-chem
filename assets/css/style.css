@@ -289,3 +289,15 @@ strong {
   border-width: medium !important;
 }
 
+label {
+  min-width: 100px;
+  text-align: left;
+  padding: 0 15px;
+}
+
+label {
+  font-family: Cairo, sans-serif;
+  color: rgba(131,130,130,1) !important;
+  font-weight: normal;
+}
+
