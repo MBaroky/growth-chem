@@ -5,7 +5,7 @@ for %%i in (*.php) do if not "%%i"=="form.php" del /q "%%i"
 for %%i in (*.html) do if not "%%i"=="form.html" ren "%%i" *.php
 ::ren *.html *.php
 @echo off
-for %%a in (index.php) do ( 
+for %%a in (index.php, contact.php) do ( 
    :: multi files with comma , seperator
    echo processing "%%a"
    type "%%a"|findrepl "end of header" /E:"start of footer" /O:+1:-1>"%%a.tmp"

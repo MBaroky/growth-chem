@@ -74,13 +74,13 @@ function isMobile() {
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col p-0">
                     <nav class="navbar navbar-light navbar-expand-md ltr" id="mainNav" style="background-color: transparent;font-family: Changa, sans-serif;">
                         <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler b-0" data-target="#navbarResponsive"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                             <div class="collapse navbar-collapse" id="navbarResponsive"
                                 style="margin-top: 0;">
                                 <ul class="nav navbar-nav d-flex flex-row-reverse align-items-stretch mx-auto p-0">
-                                    <li class="nav-item text-center" role="presentation"><a class="nav-link float-none active main-button <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php"><strong>الرئيسية</strong><span class="d-none d-md-inline style">Text</span></a></li>
+                                    <li class="nav-item text-center" role="presentation"><a class="nav-link float-none main-button <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php"><strong>الرئيسية</strong><span class="d-none d-md-inline style">Text</span></a></li>
                                     <li class="nav-item text-center pl-0"
                                         role="presentation"><a class="nav-link main-button <?= ($activePage == 'batteries') ? 'active':''; ?>" href="batteries.php"><strong>البطاريات</strong><span class="d-none d-md-inline style">Text</span></a></li>
                                     <li class="nav-item text-center pl-0"
