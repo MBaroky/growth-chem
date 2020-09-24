@@ -70,13 +70,20 @@ function fixedHeight(elm){
         return $(elm).outerHeight();
     }
 }
-
+let headerHeight = fixedHeight('header#main-header');
+const $successMessage = $("#sentMailSuc");
+const $formWrap = $('.form-wrapper');
 // fixed header add padding to body
 $(window).on('load resize', function(){
-    $('body').css('padding-top', fixedHeight('header#main-header'));
+    $('body').css('padding-top', headerHeight);
+    $successMessage && $successMessage.css({paddingTop : headerHeight});
+    $formWrap && $formWrap.css({minHeight:headerHeight + $successMessage.outerHeight()});
 });
 $(document).ready(function(){
-     $('body').css('padding-top', fixedHeight('header#main-header'));
+     $('body').css('padding-top', headerHeight);
+     $successMessage && $successMessage.css({paddingTop : headerHeight});
+     $formWrap && $formWrap.css({minHeight:headerHeight + $successMessage.outerHeight()});
+
 });
 
 // scroll to target
@@ -84,7 +91,7 @@ $('[href*="#"]:not([href="#"])').on('click', function(e){
     const url = $(this).attr('href');
     e.preventDefault();
     $('html, body').animate({
-        scrollTop: parseInt($(url).offset().top)
+        scrollTop: parseInt($(url).offset().top) + headerHeight
     }, 400);
 })
 

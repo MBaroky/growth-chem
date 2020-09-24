@@ -79,12 +79,17 @@ function isMobile() {
                         <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler b-0" data-target="#navbarResponsive"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                             <div class="collapse navbar-collapse" id="navbarResponsive"
                                 style="margin-top: 0;">
-                                <ul class="nav navbar-nav d-flex flex-row-reverse align-items-stretch mx-auto p-0">
-                                    <li class="nav-item text-center" role="presentation"><a class="nav-link float-none main-button <?= ($activePage == 'index') ? 'active':''; ?>" href="index.php"><strong>الرئيسية</strong><span class="d-none d-md-inline style">Text</span></a></li>
-                                    <li class="nav-item text-center pl-0"
-                                        role="presentation"><a class="nav-link main-button <?= ($activePage == 'batteries') ? 'active':''; ?>" href="batteries.php"><strong>البطاريات</strong><span class="d-none d-md-inline style">Text</span></a></li>
-                                    <li class="nav-item text-center pl-0"
-                                        role="presentation"><a class="nav-link main-button <?= ($activePage == 'contact') ? 'active':''; ?>" href="contact.php"><strong>اتصل بنا</strong><span class="d-none d-md-inline style">Text</span></a></li>
+                                <ul class="nav navbar-nav d-flex flex-row-reverse align-items-stretch mx-auto p-0" id="parentNav">
+                                    <li class="nav-item text-center <?= ($activePage == 'index') ? 'active':''; ?>" role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link float-none main-button" href="index.php"><strong>الرئيسية</strong></a></li>
+                                    <li class="nav-item text-center pl-0 <?= ($activePage == 'batteries') ? 'active':''; ?>"
+                                        role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link main-button" href="batteries.php"><strong>المنتجات</strong><i class="fa fa-chevron-down" style="margin: 0 10px 0 0;z-index: 3;"></i></a>
+                                        <ul class="nav navbar-nav">
+                                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+                                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
+                                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item text-center pl-0 <?= ($activePage == 'contact') ? 'active':''; ?>" role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link main-button" href="contact.php"><strong>اتصل بنا</strong></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -3,6 +3,13 @@
   --base-color: rgba(133,183,7,1);
 }
 
+#success_submit {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
 @media (max-width: 767px) {
   .navbar .navbar-collapse {
     position: absolute;
@@ -12,7 +19,7 @@
   }
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav #parentNav.navbar-nav > .nav-item > .nav-link {
   position: relative;
   color: rgba(28,106,66,1) !important;
   font-family: Cairo, sans-serif;
@@ -26,12 +33,13 @@
   border-width: 0 !important;
 }
 
-#mainNav .navbar-nav .nav-item {
+#mainNav #parentNav.navbar-nav > .nav-item {
   flex: 1;
   min-width: 100px;
-  padding: 15px 7px 0px !important;
-  padding-top: 15px;
-  overflow: hidden;
+  position: relative;
+  overflow: visible;
+  margin-right: 20px;
+  padding: 0 !important;
 }
 
 .nav.navbar-nav {
@@ -44,7 +52,7 @@
 }
 
 @media (min-width: 768px) {
-  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  #mainNav #parentNav.navbar-nav > .nav-item.active > .nav-link, #mainNav #parentNav.navbar-nav > .nav-item:hover > .nav-link {
     background-color: rgba(242,146,0,1) !important;
   }
 }
@@ -77,11 +85,12 @@
   #mainNav {
     border-top: solid 1px #bcdb5d;
     padding: 0px;
+    padding-top: 15px;
   }
 }
 
 @media (min-width: 768px) {
-  #mainNav .navbar-nav .nav-item .nav-link:after {
+  #mainNav #parentNav.navbar-nav > .nav-item:after {
     z-index: -1;
     pointer-events: none;
     content: "";
@@ -99,17 +108,17 @@
 }
 
 @media (min-width: 768px) {
-  #mainNav .navbar-nav .nav-item .nav-link:hover:after, #mainNav .navbar-nav .nav-item .nav-link.active:after {
+  #mainNav #parentNav.navbar-nav > .nav-item:hover:after, #mainNav #parentNav.navbar-nav > .nav-item.active:after {
     height: 100%;
   }
 }
 
-#mainNav .navbar-nav .nav-item .nav-link strong {
+#mainNav #parentNav.navbar-nav > .nav-item .nav-link strong {
   z-index: 2;
   position: relative;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link .style {
+#mainNav #parentNav.navbar-nav > .nav-item .style {
   content: "";
   pointer-events: none;
   left: -30%;
@@ -128,7 +137,7 @@
   background-image: url("../../assets/img/flare-2880w.png");
 }
 
-#mainNav .navbar-nav .nav-item .nav-link:hover .style, #mainNav .navbar-nav .nav-item .nav-link.active .style {
+#mainNav #parentNav.navbar-nav > .nav-item:hover .style, #mainNav #parentNav.navbar-nav > .nav-item.active .style {
   opacity: 1;
   left: 0;
   transition-delay: 0.3s, 0.25s;
@@ -143,7 +152,7 @@
 }
 
 @media (min-width: 768px) {
-  #mainNav .navbar-nav .nav-item .nav-link:before {
+  #mainNav #parentNav.navbar-nav > .nav-item > .nav-link:before {
     content: "" !important;
     width: 175% !important;
     left: 0 !important;
@@ -161,7 +170,7 @@
 }
 
 @media (min-width: 768px) {
-  #mainNav .navbar-nav .nav-item .nav-link:hover:before, #mainNav .navbar-nav .nav-item .nav-link.active:before {
+  #mainNav #parentNav.navbar-nav > .nav-item:hover > .nav-link:before, #mainNav #parentNav.navbar-nav > .nav-item.active .nav-link:before {
     background: rgba(255,255,255,.07) !important;
     top: -45% !important;
   }
@@ -299,5 +308,21 @@ label {
   font-family: Cairo, sans-serif;
   color: rgba(131,130,130,1) !important;
   font-weight: normal;
+}
+
+#mainNav #parentNav.navbar-nav > .nav-item .nav.navbar-nav {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: auto;
+  left: 0;
+}
+
+#mainNav #parentNav.navbar-nav > .nav-item:hover {
+}
+
+#mainNav #parentNav.navbar-nav > .nav-item .nav-link {
+  overflow: hidden;
+  color: #000;
 }
 

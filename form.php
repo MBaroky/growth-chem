@@ -1,12 +1,12 @@
 <?php
 require 'PHPMailer-master/PHPMailerAutoload.php';
 $englishMessages = array(
-"SUBMIT_SUCCESSFULLY"=>"<div id=sentMailSuc class=sentMailSuc>Your request has been sent. Please expect a call shortly from one of our Media Consultants.</div>#success_submit",
-"SUBMIT_FAILED"=>"Failed#success_submit",
+"SUBMIT_SUCCESSFULLY"=>"<div id=sentMailSuc class=sentMailSuc>Your request has been sent. Please expect a call shortly from one of our Media Consultants.</div>#contact-form-wrapper",
+"SUBMIT_FAILED"=>"Failed#contact-form-wrapper",
 );
 $arabicMessages = array(
-"SUBMIT_SUCCESSFULLY"=>"<div id=sentMailSuc class=sentMailSuc>شكراً لإهتمامك، احد مندوبينا سيقوم بالإتصال بك قريباً.</div>#success_submit",
-"SUBMIT_FAILED"=>"لم ينجح الارسال#success_submit",
+"SUBMIT_SUCCESSFULLY"=>"<div id=sentMailSuc class=sentMailSuc>شكراً لإهتمامك، احد مندوبينا سيقوم بالإتصال بك قريباً.</div>#contact-form-wrapper",
+"SUBMIT_FAILED"=>"لم ينجح الارسال#contact-form-wrapper",
 );
 
 if (!isset($_REQUEST['lang']) || $_REQUEST['lang'] == 'english'){
@@ -189,7 +189,7 @@ if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirst
 
 
 
-	if ( @mail($too,$subject,$emailContent,$headers) ){
+	if ( @mail($to,$subject,$emailContent,$headers) ){
 		$endFormMessage = $allMessages['SUBMIT_SUCCESSFULLY'];
 	} else {
 		//$endFormMessage = $allMessages['SUBMIT_FAILED'];

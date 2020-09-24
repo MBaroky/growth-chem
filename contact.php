@@ -1,15 +1,11 @@
 <?php include 'form.php'; ?>
 <?php include 'header.php'; ?>
-<style>
-    #main-header + section{
-        display:none !important;
-    }
-</style>
-    <section id="contact-form-wrapper" style="background-color: #E8E8E8;border-bottom: solid 2px rgba(163,163,163,1);">
+
+    <section id="contact-form-wrapper" style="background-color: #E8E8E8;border-bottom: solid 2px rgba(163,163,163,1);padding-top: 70px;">
         <div class="container">
             <div class="intro"></div>
             <div class="row rtl">
-                <div class="col text-center">
+                <div class="col text-center form-wrapper">
 <div id="success_submit" style="padding-bottom:60px;"></div>
 
 <?php echo @$_REQUEST['endFormMessage'];?><?php if(!isset($_REQUEST['endFormMessage']) && $_REQUEST['endFormMessage'] == 0){?>
