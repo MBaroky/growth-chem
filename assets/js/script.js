@@ -1,3 +1,9 @@
+/* this part to init AOS function */
+$(function() {  /* this is the jQuery equivalent of documents.ready */
+    AOS.init();
+    setTimeout(() => {AOS.refresh();}, 500);
+});
+
 // sticky navbar detect when reaches top of window (functions)
 function getTopOf(target){
     var viewportOffset = target.getBoundingClientRect();
@@ -26,7 +32,7 @@ $(document).ready(function(){
          const options = $self.data();
         //  adding function for when active slide changes
          options.before = function(slider){
-            console.log(slider.vars); 
+            // console.log(slider.vars); 
          }
          options.after = function(slider){
             //  select active slide
@@ -57,17 +63,7 @@ $(window).on('scroll', function(){
         $('#mainNav').removeClass('scrolled');
     }
 });
-$(window).on('load', function(){
-    
-// Flickity slider (brands carousel)
-var flkty = new Flickity( '.brand-carousel', {
-    contain: true,
-    pageDots: false,
-    wrapAround: true,
-    freeScroll: true,
-    autoPlay: 2000
-  });
-})
+
 // fixed header get the height of fixed header
 function fixedHeight(elm){
     if ($(elm).css('position') === 'fixed'){

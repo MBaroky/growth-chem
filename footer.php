@@ -1,8 +1,196 @@
     <!--start of footer-->
-    <footer class="footer text-faded text-center py-5" style="background-color: rgba(0,0,0,0.9);padding: 25px 40px;">
+    <section class="text-center" style="padding: 40px 0 0;">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-5 rtl">
+                <div class="col text-center">
+                    <div class="d-flex justify-content-center align-items-center icon-wrapper-1"><i class="la la-map-marker icon-1" style="color: rgba(255,255,255,1);font-size: 35px;"></i></div>
+                    <p style="width: 740px;margin-top: 30px;">المنطقة الصناعية الثانية قطعة 165- 166، النوبارية الجديدة، البحيرة<br></p>
+                </div>
+                <div class="col text-center">
+                    <div class="d-flex justify-content-center align-items-center icon-wrapper-1"><i class="la la-envelope icon-1" style="color: rgba(255,255,255,1);font-size: 35px;"></i></div>
+                    <p class="text-break links-wrapper" style="width: 740px;margin-top: 30px;"><a href="mailto:info@growthchem-eg.com">info@growthchem-eg.com&nbsp;</a><br><a href="mailto:registration@growthchem-eg.com">registration@growthchem-eg.com</a><br></p>
+                </div>
+                <div class="col text-center">
+                    <div class="d-flex justify-content-center align-items-center icon-wrapper-1"><i class="icon-screen-smartphone icon-1" style="color: rgba(255,255,255,1);font-size: 35px;"></i></div>
+                    <p class="ltr" style="width: 740px;margin-top: 30px;"><a href="tel:+2 01151555005">+2 01151555005</a><br></p>
+                </div>
+                <div class="col text-center">
+                    <div class="d-flex justify-content-center align-items-center icon-wrapper-1"><i class="la la-phone icon-1" style="color: rgba(255,255,255,1);font-size: 35px;"></i></div>
+                    <p class="ltr" style="width: 740px;margin-top: 30px;"><a href="tel:+2 0452634940">+2 0452634940&nbsp;</a><br><a href="tel:+2 0452634996">+2 0452634996&nbsp;</a><br></p>
+                </div>
+                <div class="col text-center">
+                    <div class="d-flex justify-content-center align-items-center icon-wrapper-1"><i class="la la-whatsapp icon-1" style="color: rgba(255,255,255,1);font-size: 35px;"></i></div><a class="btn btn-link btn-sm text-nowrap ltr" role="button" href="<?= (isMobile()) ? 'https://wa.me/+2%2001020952952':'https://web.whatsapp.com/send?phone=+2%2001020952952'; ?>"
+                        style="width: 100%;box-shadow: none;">+2 01020952952</a></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row row-cols-1 rtl">
+                <div class="col text-center"><a class="btn btn-outline-success btn-lg d-flex float-none justify-content-between" role="button" href="https://www.google.com/maps/place/30%C2%B039'30.3%22N+30%C2%B004'47.9%22E/@30.6584167,30.0821505,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d30.6584167!4d30.0799618?hl=ar&amp;shorturl=1"
+                        style="width: 240px;" target="_blank"><span style="flex: 1;">اعرف الطريق</span><span><i class="fa fa-location-arrow"></i></span></a></div>
+                <div class="col text-center p-0 map-wrap"><span class="d-block" style="width: 100%;line-height: 0.8;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.1318080825076!2d30.082160884870245!3d30.658416681663027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDM5JzMwLjMiTiAzMMKwMDQnNDcuOSJF!5e0!3m2!1sar!2seg!4v1600940939413!5m2!1sar!2seg" width="100%" height="450" frameborder="0" style="border:0;margin:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-faded text-center py-3" style="background-color: #85B707;padding: 10px 0;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center d-inline-block align-self-start">
+                    <div class="m-0" data-aos="fade-up"><div class="logo-icon white"><svg version="1.1" id="1761517866" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251px" height="250px" viewbox="0 0 251 250" enable-background="new 0 0 251 250" xml:space="preserve" class="svg u_1761517866" data-icon-custom="true" data-icon-name="icon_animated.svg">
+  <g id="1485144423">
+   <defs id="1875605874">
+    <path id="SVGID_1_" d="M149.078,41.597c2.98,4.269,5.443,7.771,7.877,11.293c1.745,2.525,2.641,5.184,2.257,8.401
+			c-0.772,6.482-7.588,8.501-12.018,7.362c-5.474-1.407-8.269-6.578-6.32-12.04c0.494-1.383,1.313-2.687,2.167-3.896
+			C145.412,49.361,148.391,46.382,149.078,41.597z M147.416,130.679c1.832-2.975,1.893-3.519,1.126-10.43
+			c-4.292-5.424-12.524-5.131-16.954-12.132C130.442,119.847,136.927,128.581,147.416,130.679z M143.368,131.364
+			c-3.961-2.242-8.046-4.264-12.025-6.357c-1.992,10.019,8.665,22.595,16.961,19.782
+			C150.156,138.255,148.834,134.459,143.368,131.364z M148.696,90.328c-1.503-1.084-3.121-2.526-4.976-3.532
+			c-4.328-2.346-9.015-4.112-12.155-8.761c-1.143,12.543,6.189,21.977,17.131,21.976C148.696,96.747,148.696,93.803,148.696,90.328z
+			 M143.022,101.208c-3.837-2.173-7.724-4.26-11.475-6.322c-1.288,10.39,6.388,20.014,16.648,20.443
+			C150.436,108.741,148.926,104.552,143.022,101.208z M151.549,115.613c10.921-1.673,17.528-10.967,15.775-22.609
+			c-3.883,6.574-11.671,7.031-16.402,11.972C150.945,108.618,150.209,112.181,151.549,115.613z M150.954,134.793
+			c0,3.429-0.03,6.576,0.035,9.722c0.009,0.41,0.507,0.811,0.758,1.185c9.47-0.835,16.876-10.46,15.723-21.688
+			C162.816,129.979,155.258,129.855,150.954,134.793z M166.899,78.285c-1.632,3.878-4.829,5.441-8.22,6.868
+			c-2.85,1.199-5.948,2.142-7.83,5.214c0.636,3.396-1.538,7.097,1.075,10.718C162.54,98.47,170.047,87.119,166.899,78.285z
+			 M147.488,85.807c0.362-0.646,0.923-1.299,1.12-2.049c1.408-5.346-0.094-8.726-5.383-12.123
+			c-4.133-2.654-8.939-4.422-11.542-9.619C130.301,73.222,137.263,83.476,147.488,85.807z M167.077,109.468
+			c-2.49,1.709-4.943,3.58-7.578,5.147c-2.801,1.665-6.208,2.323-8.439,5.14c0,3.522,0,7.084,0,11.102
+			C162.306,128.313,170.418,116.743,167.077,109.468z M167.045,60.984c-1.723,6.058-6.252,8.298-10.973,10.404
+			c-1.774,0.791-3.359,2.006-5.05,3.039c0,3.828,0,7.395,0,11.3C161.627,85.682,169.443,70.718,167.045,60.984z M163.213,58.751
+			l0.063-33.666l-2.313-0.002v33.771L163.213,58.751z M135.901,58.751l0.063-33.666l-2.313-0.002v33.771L135.901,58.751z
+			 M148.634,36.5l0.063-22.666l-2.313-0.002v22.771L148.634,36.5z">
+    </path>
+   </defs>
+   <clippath id="SVGID_2_">
+    <use xlink:href="#SVGID_1_" overflow="visible" id="1957092328">
+    </use>
+   </clippath>
+   <path id="path-1" clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#F29200" stroke-width="40" stroke-miterlimit="10" d="
+		M149.468,152.5V6c0,0-0.665-12.5-15.816-6" class="wGmVKmyF_0-1761517866">
+   </path>
+  </g>
+  <g id="1519845615">
+   <defs id="1287150120">
+    <path id="SVGID_3_" d="M174.438,131.114c0.418-3.544,0.921-7.805,1.485-12.585c5.574-0.246,10.817-0.479,16.527-0.73
+			c2.961,7.856,8.713,23.119,8.713,23.119l-11.126,11.054v13.982l11.241,10.461l-9.709,23.946l-15.217-0.035l-10.146,10.563v13.244
+			l-23.142,10.722c0,0-3.113-3.456-4.744-5.305c-1.521-1.724-3.017-3.471-4.669-5.375c2.35-3.411,6.735-9.599,6.735-9.599
+			s2.958-2.054,4.584-2.82c10.09-4.758,18.916-11.193,25.801-19.999c10.361-13.251,12.677-28.282,8.841-44.362
+			C178.348,142.09,176.322,136.966,174.438,131.114z M173.634,154.088c1.485,17.612-3.916,32.504-18.412,43.288
+			c-3.686,2.742-6.592,6.024-9.308,9.585c-0.482,0.633-0.618,1.531-1.083,2.753c35.546-16.229,41.142-49.561,28.634-74.61
+			c-0.963,1.524-1.823,2.885-2.421,3.831C172.039,144.615,173.231,149.318,173.634,154.088z">
+    </path>
+   </defs>
+   <clippath id="SVGID_4_">
+    <use xlink:href="#SVGID_3_" overflow="visible" id="1098033814">
+    </use>
+   </clippath>
+   <path id="path-2" clip-path="url(#SVGID_4_)" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#683B11" stroke-width="40" stroke-miterlimit="10" d="
+		M171.604,111c0,0,27.396,41.5,8.396,76s-54.5,37-54.5,37" class="wGmVKmyF_1-1761517866">
+   </path>
+  </g>
+  <g id="1347342944">
+   <defs id="1394699056">
+    <path id="SVGID_5_" d="M74.95,182.447c-6.029,4.028-18.079,12.08-18.079,12.08l-7.08-17.783l11.119-9.147
+			c0,0-0.093-12.062,1.124-15.579c-4.601-5.518-11.69-10.061-11.69-10.061l10.287-23.544l14.5,0.834l9.682-10.436V93.735
+			l23.282-10.717l12.373,11.929l6.07-0.575l-0.726,9.025c0,0-5.188,0.963-7.756,1.438c-9.431,1.745-18.308,4.928-26.333,10.264
+			c-13.326,8.861-19.963,21.509-20.853,37.305C70.302,162.485,71.923,172.313,74.95,182.447z M120.739,106.171
+			c-9.355,1.826-18.289,4.767-26.354,10.019c-9.268,6.034-15.594,14.308-19.042,24.796c-2.921,8.883-2.893,18.047-1.929,27.149
+			c0.492,4.646,1.126,9.467,3.612,14.302c1.852-1.166,3.454-2.175,4.756-2.995c-1.166-6.506-2.66-12.489-3.24-18.561
+			c-1.27-13.288,2.479-25,12.251-34.448c4.714-4.558,10.149-8.107,16.251-10.437c5.703-2.176,10.331-3.459,17.644-5.246
+			c0-1.083,0-3.005,0-4.835C123.028,106.014,121.856,105.953,120.739,106.171z">
+    </path>
+   </defs>
+   <clippath id="SVGID_6_">
+    <use xlink:href="#SVGID_5_" overflow="visible" id="1238024517">
+    </use>
+   </clippath>
+   <path id="path-3" clip-path="url(#SVGID_6_)" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#683B11" stroke-width="40" stroke-miterlimit="10" d="
+		M74.997,195.449c0,0-15.997-24.949-2-60.999c12.266-31.592,58.551-39.564,58.551-39.564l4.146-1.045" class="wGmVKmyF_2-1761517866">
+   </path>
+  </g>
+  <g id="1547460006">
+   <defs id="1419607867">
+    <path id="SVGID_7_" d="M53.044,222.313c-8.43-3.89-12.94-7.895-15.67-14.309c0.508-0.289,1.375-0.746,2.208-1.26
+			c39.734-24.502,81.509-44.45,126.694-56.792c1.263-0.345,2.551-0.598,4.32-1.008c0.108,1.67,0.197,3.047,0.299,4.596
+			c-4.364,1.887-8.475,3.638-12.563,5.438c-21.477,9.454-42.547,19.708-62.719,31.749C80.428,199.791,65.863,209.674,53.044,222.313
+			z M67.679,231.006c5.653,4.147,11.67,5.817,17.799,7.752c24.271-30.328,54.501-53.706,86.126-75.453c0-1.718,0-3.301,0-5.533
+			C133.063,177.029,98.33,200.623,67.679,231.006z M103.967,241.57c5.879,0.517,11.55,0.612,16.381-0.353
+			c3.636-6.326,6.522-12.159,10.145-17.494c10.59-15.6,22.522-30.133,35.894-43.452c2.374-2.365,3.393-5.171,3.537-9.082
+			C148.162,183.708,109.595,224.821,103.967,241.57z">
+    </path>
+   </defs>
+   <clippath id="SVGID_8_">
+    <use xlink:href="#SVGID_7_" overflow="visible" id="1444008599">
+    </use>
+   </clippath>
+   <path id="path-4" clip-path="url(#SVGID_8_)" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5A9C45" stroke-width="86" stroke-miterlimit="10" d="
+		M214,144.051c0,0-68.836,24.495-96.357,45.497S55,247.5,55,247.5" class="wGmVKmyF_3-1761517866">
+   </path>
+  </g>
+  <g id="1593044910">
+   <defs id="1054746245">
+    <path id="SVGID_9_" d="M81.62,144.051c17.756,0.792,34,5.216,50.092,13.42c-4.24,2.872-8.596,3.684-12.539,5.653
+			c-11.876-6.593-24.658-10.558-38.182-14.123C81.188,147.459,81.379,145.949,81.62,144.051z M81.199,155.938
+			c0,0,4.684,3.315,6.005,4.219c4.771,3.261,9.474,6.621,14.189,9.935c4.961-1.3,9.823-2.226,13.681-6.673
+			c-10.604-4.82-20.632-9.894-31.733-12.276c-0.731-0.157-2.142-0.579-2.142-0.579V155.938z M80.158,158.064
+			c0.636,6.767,0.638,13.442,3.605,20.092c4.567-2.101,8.813-4.052,13.652-6.277c-4.238-3.743-7.966-6.941-11.569-10.272
+			c-1.141-1.054-3.086-2.361-4.048-3.606C81.799,158,81.491,158.064,80.158,158.064z">
+    </path>
+   </defs>
+   <clippath id="SVGID_10_">
+    <use xlink:href="#SVGID_9_" overflow="visible" id="1099459276">
+    </use>
+   </clippath>
+   <path id="path-5" clip-path="url(#SVGID_10_)" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#85B707" stroke-width="46" stroke-miterlimit="10" d="
+		M45,144.051c0,0,54.864,3.077,84,43.449" class="wGmVKmyF_4-1761517866">
+   </path>
+  </g>
+  <style data-made-with="vivus-instant" id="1513602642">
+   .wGmVKmyF_0-1761517866{
+     stroke-dasharray:168 170;stroke-dashoffset:169;}
+  .aos-animate .wGmVKmyF_0-1761517866{
+     animation:wGmVKmyF_draw 1000ms ease-in-out 0ms forwards;
+  }
+  .wGmVKmyF_1-1761517866{
+    stroke-dasharray:149 151;stroke-dashoffset:150;}
+    .aos-animate .wGmVKmyF_1-1761517866{
+    animation:wGmVKmyF_draw 1000ms ease-in-out 250ms forwards;
+  }
+  .wGmVKmyF_2-1761517866{
+    stroke-dasharray:137
+   139;
+   stroke-dashoffset:138;}
+   .aos-animate .wGmVKmyF_2-1761517866{
+   animation:wGmVKmyF_draw 1000ms ease-in-out 500ms forwards;
+  }
+  .wGmVKmyF_3-1761517866{
+    stroke-dasharray:193 195;stroke-dashoffset:194;}
+    .aos-animate .wGmVKmyF_3-1761517866{
+    animation:wGmVKmyF_draw 1000ms ease-in-out 750ms forwards;
+  }
+  .wGmVKmyF_4-1761517866{
+    stroke-dasharray:98
+   100;stroke-dashoffset:99;}
+   .aos-animate .wGmVKmyF_4-1761517866{
+   animation:wGmVKmyF_draw 1000ms ease-in-out 1000ms forwards;
+  }
+  @keyframes
+   wGmVKmyF_draw{100%{stroke-dashoffset:0;}}
+   @keyframes
+   wGmVKmyF_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}
+  </style>
+ </svg></div></div>
+                    <p style="color: #fff;font-size: 40px;font-weight: 300;font-family: 'Josefin Sans', sans-serif;">Grow Your <strong>Bussiness</strong></p><a class="btn border rounded-circle border-white d-inline-flex justify-content-center align-items-center s-0 social-icon" role="button" style="margin-right: 10px;" href="https://www.facebook.com/pages/category/Chemical-Company/%D8%AC%D8%B1%D9%88%D8%B3-%D9%83%D9%8A%D9%85-%D9%84%D9%84%D9%83%D9%8A%D9%85%D8%A7%D9%88%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-Growth-chem-for-Advanced-chemicals-2273195822921032/"><i class="fa fa-facebook-f"></i></a></div>
+            </div>
+            <div class="row">
+                <div class="col p-0">
+                    <hr style="background-color: #ffffff;width: 100%;margin: 0;">
+                </div>
+            </div>
+        </div>
         <div class="container">
-            <hr style="background-color: #ffffff;margin-top: 0;">
-            <p class="m-0 small"> باترى هوم للاطارات والبطاريات ©2020&nbsp;&nbsp;<span style="color: var(--main-color);">جميع الحقوق محفوظة</span></p><div class="published" style="text-align:center;width:100%"> <a href="http://www.yellowmedia.com.eg/en/" target="_blank" style="text-decoration:none; border:0; outline:0;" raw_url="http://www.yellowmedia.com.eg/en/"> <h4 style="display:inline;text-transform:uppercase; font-weight:200;font-size:15px; font-family:'Calibri'; margin-right:2px">published by</h4> 
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col text-left p-0"><div class="published" style="text-align:center;width:100%"> <a href="http://www.yellowmedia.com.eg/en/" target="_blank" style="text-decoration:none; border:0; outline:0;" raw_url="http://www.yellowmedia.com.eg/en/"> <h4 style="display:inline;text-transform:uppercase; font-weight:200;font-size:15px; font-family:'Calibri'; margin-right:2px">published by</h4> 
  <span class="yellow-logo" style="display:inline"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="111.578px" height="22.3px" viewBox="0 0 111.578 22.3" enable-background="new 0 0 111.578 22.3" xml:space="preserve"> <g> <g id="yellow-tm"> <path fill="#fff" d="M23.05,22.193V22.3h-0.494c0.097-0.442,0.353-0.787,0.776-1.017c0.326-0.186,0.503-0.397,0.529-0.637
     			c0.848-0.654,1.65-1.404,2.4-2.244c0.468-0.566,1.165-1.406,2.092-2.511c0.282-0.309,0.626-0.813,1.023-1.52
     			c0.212-0.213,0.459-0.54,0.741-0.981c-0.354-0.566-0.503-0.981-0.459-1.237c-0.238-0.283-0.591-1.088-1.059-2.431l0.388-0.142
@@ -126,14 +314,18 @@
 </span> 
 </a> 
 </div></div>
+                <div class="col text-right p-0" style="padding-top: 15px;">
+                    <p class="text-center text-md-right small copyrights" style="color: #fff;">جروس كيم للكيماويات المتطورة&nbsp;©<span class="current-year"><?php echo date("Y"); ?></span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/Bootstrap-Spinner-Best-Preloader.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 

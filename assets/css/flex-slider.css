@@ -86,7 +86,7 @@ html[lang="ar"] p, html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, h
 div.flexslider {
   margin: 0;
   border: solid #000;
-  border-width: 7px 0;
+  border-width: 0 0 7px;
 }
 
 .flexslider .custom-navigation {
