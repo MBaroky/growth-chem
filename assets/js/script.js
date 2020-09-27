@@ -3,6 +3,12 @@ $(function() {  /* this is the jQuery equivalent of documents.ready */
     AOS.init();
     setTimeout(() => {AOS.refresh();}, 500);
 });
+$(function(){
+    $('[data-aos]').attr({"data-aos-once":true});
+    $('.tabs .nav-item:first-child .nav-link').text("Definition");
+    $('.tabs .nav-item:nth-child(2)') && $('.tabs .nav-item:nth-child(2) .nav-link').text("Composition");
+
+});
 
 // sticky navbar detect when reaches top of window (functions)
 function getTopOf(target){
@@ -87,24 +93,31 @@ $(document).ready(function(){
 });
 
 // Fixed Height for bootstrap tabs
-var maxHeight=0;
+
 $(".tabs").each(function(i){
+    let maxHeight=0;
     const contCount = i+1;
     $(this).find('.tab-pane').each(function(n){
-        $(this).attr({'id': `tab-${contCount}-${n+1}`})
+        $(this).attr({'id': `tab-${contCount}-${n+1}`});
+        $(this).addClass("active");
+        var height = $(this).height();
+         maxHeight = height>maxHeight?height:maxHeight;
+         $(this).removeClass("active");
+         n === 0 && $(this).addClass("active");
+         $(this).height(maxHeight);
     });
     $(this).find('.nav-link').each(function(n){
         $(this).attr({'href': `#tab-${contCount}-${n+1}`})
     });
 });
-$(".tab-content .tab-pane").each(function(){
-    $(this).addClass("active");
-   var height = $(this).height();
-    maxHeight = height>maxHeight?height:maxHeight;
-    $(this).removeClass("active");
-});
-$(".tab-content .tab-pane:first-child").addClass("active");
-$(".tab-content").height(maxHeight);
+// $(".tab-content .tab-pane").each(function(){
+//     $(this).addClass("active");
+//    var height = $(this).height();
+//     maxHeight = height>maxHeight?height:maxHeight;
+//     $(this).removeClass("active");
+// });
+// $(".tab-content .tab-pane:first-child").addClass("active");
+// $(".tab-content").height(maxHeight);
 
 
 // scroll to target

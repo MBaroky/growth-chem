@@ -7,12 +7,12 @@
     <title>جروس كيم للكيماويات المتطورة</title>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="">
-    <meta property="og:image" content="assets/img/icon.svg">
+    <meta property="og:image" content="../assets/img/icon.svg">
     <meta property="og:type" content="website">
     <meta property="og:title" content="جروس كيم للكيماويات المتطورة">
     <meta name="description" content="">
     <meta name="twitter:title" content="جروس كيم للكيماويات المتطورة">
-    <meta name="twitter:image" content="assets/img/icon.svg">
+    <meta name="twitter:image" content="../assets/img/icon.svg">
     <link rel="icon" type="image/svg+xml" sizes="251x250" href="assets/img/icon.svg">
     <link rel="icon" type="image/svg+xml" sizes="251x250" href="assets/img/icon.svg">
     <link rel="icon" type="image/svg+xml" sizes="251x250" href="assets/img/icon.svg">
@@ -82,8 +82,8 @@ function isMobile() {
                                 style="margin-top: 0;">
                                 <ul class="nav navbar-nav text-right d-flex flex-column justify-content-start align-items-stretch mx-auto flex-md-row-reverse p-0" id="parentNav">
                                     <li class="nav-item text-center <?= ($activePage == 'index') ? 'active':''; ?>" role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link float-none main-button" href="index.php"><strong>الرئيسية</strong></a></li>
-                                    <li class="nav-item dropdown show <?= ($activePage == 'products') ? 'active':''; ?>"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#">المنتجات&nbsp;</a>
-                                        <div class="dropdown-menu show text-right" role="menu"><a class="dropdown-item" role="presentation" href="products.php#prod-1" style="background-color: #ffffff;">الاسمدة المتخصصة</a><a class="dropdown-item" role="presentation" href="products.php#prod-2">الاسمدة المركبة</a>
+                                    <li class="nav-item dropdown <?= ($activePage == 'products') ? 'active':''; ?>"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">المنتجات&nbsp;</a>
+                                        <div class="dropdown-menu text-right" role="menu"><a class="dropdown-item" role="presentation" href="products.php#prod-1" style="background-color: #ffffff;">الاسمدة المتخصصة</a><a class="dropdown-item" role="presentation" href="products.php#prod-2">الاسمدة المركبة</a>
                                             <a
                                                 class="dropdown-item" role="presentation" href="products.php#prod-3">الاسمدة المعلقة</a><a class="dropdown-item" role="presentation" href="products.php#prod-4">المخلبيات</a><a class="dropdown-item" role="presentation" href="products.php#prod-5">منظمات النمو</a></div>
                                     </li>
