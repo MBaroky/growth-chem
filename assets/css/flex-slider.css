@@ -140,15 +140,17 @@ div.flexslider {
   padding: 15px 25px;
 }
 
-section {
-  padding: 40px;
+@media (min-width: 768px) {
+  section {
+    padding: 40px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--main-color);
   text-align: center;
-  font-weight: 400;
-  font-family: Changa, sans-serif;
+  font-weight: 700;
+  font-family: Cairo, sans-serif;
 }
 
 p {
@@ -162,7 +164,7 @@ p {
 
 dl, ol, ul {
   color: #fff;
-  font-family: Changa, sans-serif;
+  font-family: Cairo, sans-serif;
 }
 
 .custom-navigation img {

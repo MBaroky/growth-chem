@@ -60,8 +60,7 @@
                 <div class="col text-center">
                     <h3><strong>نبذة</strong><br></h3>
                     <p class="lead" style="width: 740px;margin-top: 30px;">جروس كيم للكيماويات المتطورة نعمل على تدعيم السوق الزراعي بكل ما هو جديد ومبتكر على أسس علمية حديثة من الكيماويات الزراعية (اسمدة مركبة - مخلبيات - اسمدة سائلة - منظمات نمو) على أيدي خبراء ومتخصصين مستخدمين أحدث الأجهزة والماكينات
-                        تحت مراقبة معامل الجودة الخاصة بالمصنع للوصول لاعلى جودة وكفاءة.<br></p><a class="btn btn-outline-primary btn-lg d-flex float-none justify-content-between" role="button" href="https://irp-cdn.multiscreensite.com/5bf9fe44/files/uploaded/Growth%20Chem.pdf"
-                        style="width: 240px;" target="_blank"><span style="flex: 1;">اعرف المزيد</span><span><i class="fa fa-download"></i></span></a></div>
+                        تحت مراقبة معامل الجودة الخاصة بالمصنع للوصول لاعلى جودة وكفاءة.<br></p><a class="btn btn-outline-primary btn-lg d-flex float-none justify-content-between" role="button" href="assets/pdf/cata-00.pdf" style="width: 240px;" target="_blank"><span style="flex: 1;">اعرف المزيد</span><span><i class="fa fa-download"></i></span></a></div>
             </div>
         </div>
     </section>

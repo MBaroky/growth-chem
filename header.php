@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,900">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
@@ -79,15 +80,12 @@ function isMobile() {
                         <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler b-0" data-target="#navbarResponsive"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                             <div class="collapse navbar-collapse" id="navbarResponsive"
                                 style="margin-top: 0;">
-                                <ul class="nav navbar-nav d-flex flex-row-reverse align-items-stretch mx-auto p-0" id="parentNav">
+                                <ul class="nav navbar-nav text-right d-flex flex-column justify-content-start align-items-stretch mx-auto flex-md-row-reverse p-0" id="parentNav">
                                     <li class="nav-item text-center <?= ($activePage == 'index') ? 'active':''; ?>" role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link float-none main-button" href="index.php"><strong>الرئيسية</strong></a></li>
-                                    <li class="nav-item text-center pl-0 <?= ($activePage == 'batteries') ? 'active':''; ?>"
-                                        role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link main-button" href="batteries.php"><strong>المنتجات</strong><i class="fa fa-chevron-down" style="margin: 0 10px 0 0;z-index: 3;"></i></a>
-                                        <ul class="nav navbar-nav">
-                                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
-                                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
-                                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
-                                        </ul>
+                                    <li class="nav-item dropdown show <?= ($activePage == 'products') ? 'active':''; ?>"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#">المنتجات&nbsp;</a>
+                                        <div class="dropdown-menu show text-right" role="menu"><a class="dropdown-item" role="presentation" href="products.php#prod-1" style="background-color: #ffffff;">الاسمدة المتخصصة</a><a class="dropdown-item" role="presentation" href="products.php#prod-2">الاسمدة المركبة</a>
+                                            <a
+                                                class="dropdown-item" role="presentation" href="products.php#prod-3">الاسمدة المعلقة</a><a class="dropdown-item" role="presentation" href="products.php#prod-4">المخلبيات</a><a class="dropdown-item" role="presentation" href="products.php#prod-5">منظمات النمو</a></div>
                                     </li>
                                     <li class="nav-item text-center pl-0 <?= ($activePage == 'contact') ? 'active':''; ?>" role="presentation"><span class="d-none d-md-inline style"></span><a class="nav-link main-button" href="contact.php"><strong>اتصل بنا</strong></a></li>
                                 </ul>

@@ -26,3 +26,7 @@
   box-sizing: initial;
 }
 
+.catalogue.btn.btn-outline-primary {
+  color: #e6a756;
+}
+
