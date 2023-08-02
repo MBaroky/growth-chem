@@ -1,4 +1,4 @@
-<?php include 'form.php'; ?>
+
 <?php include 'header.php'; ?>
 
     <section id="contact-form-wrapper" style="background-color: #E8E8E8;border-bottom: solid 2px rgba(163,163,163,1);padding-top: 70px;">
